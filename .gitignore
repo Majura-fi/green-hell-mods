@@ -1,0 +1,12 @@
+/.vs
+/FastGrowingTrees/bin
+FastGrowingTrees/Libs/0Harmony.dll
+FastGrowingTrees/Libs/Assembly-CSharp-firstpass.dll
+FastGrowingTrees/Libs/Assembly-CSharp.dll
+FastGrowingTrees/Libs/UnityEngine.CoreModule.dll
+FastGrowingTrees/Libs/UnityEngine.dll
+FastGrowingTrees/Libs/UnityEngine.IMGUIModule.dll
+FastGrowingTrees/Libs/UnityEngine.UI.dll
+FastGrowingTrees/Libs/UnityModManager.dll
+FastGrowingTrees/obj
+FastGrowingTrees/post-build.bat
