@@ -1,0 +1,12 @@
+﻿{
+    "Id": "CreativeMode",
+    "DisplayName": "Creative Mode",
+    "Author": "wisnoskij",
+    "Version": "1.0.0",
+    "ManagerVersion": "0.29.0",
+    "GameVersion": "1.0.0",
+    "Requirements": [],
+    "LoadAfter": [],
+    "AssemblyName": "CreativeMode.dll",
+    "EntryMethod": "CreativeMode.Plugin.Load"
+}
