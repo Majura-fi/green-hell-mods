@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreativeMode", "CreativeMod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EternalFire", "EternalFire\EternalFire.csproj", "{4516C4CA-14D7-4075-B43D-7868706F162D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperPlanter", "SuperPlanter\SuperPlanter.csproj", "{9CE16C06-41C3-4741-A2E4-A7DDB8C76297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperPlanter", "SuperPlanter\SuperPlanter.csproj", "{9CE16C06-41C3-4741-A2E4-A7DDB8C76297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleLeeches", "SensibleLeeches\SensibleLeeches.csproj", "{7444F3D8-99BF-4483-AFB2-2A9C740A76B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9CE16C06-41C3-4741-A2E4-A7DDB8C76297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CE16C06-41C3-4741-A2E4-A7DDB8C76297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CE16C06-41C3-4741-A2E4-A7DDB8C76297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7444F3D8-99BF-4483-AFB2-2A9C740A76B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7444F3D8-99BF-4483-AFB2-2A9C740A76B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7444F3D8-99BF-4483-AFB2-2A9C740A76B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7444F3D8-99BF-4483-AFB2-2A9C740A76B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
