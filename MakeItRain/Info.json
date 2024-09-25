@@ -1,0 +1,12 @@
+﻿{
+    "Id": "MakeItRain",
+    "DisplayName": "MakeItRain",
+    "Author": "Majura-fi",
+    "Version": "1.0.0",
+    "ManagerVersion": "0.29.0",
+    "GameVersion": "1.0.0",
+    "Requirements": [],
+    "LoadAfter": [],
+    "AssemblyName": "MakeItRain.dll",
+    "EntryMethod": "MakeItRain.Plugin.Load"
+}
