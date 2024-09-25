@@ -1,20 +1,26 @@
-﻿using System.Reflection;
-using HarmonyLib;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using HarmonyLib;
 
 namespace CreativeMode;
 
-[HarmonyPatch(typeof(ConstructionGhost), nameof(ConstructionGhost.UpdateState))]
-internal class Patch_ConstructionGhost_UpdateState
+[HarmonyPatch(typeof(ConstructionGhost), nameof(ConstructionGhost.SetState))]
+internal class ConstructionGhost_SetState
 {
-    static void Prefix(ConstructionGhost __instance)
+    static void Postfix(ConstructionGhost __instance)
     {
-        if ((int)Traverse.Create(__instance).Field("m_State").GetValue() == 1)
+        // Build only the placed down ghost.
+        // Otherwise we will build things in our hands.
+        if (__instance.m_State == ConstructionGhost.GhostState.Building)
         {
-            Traverse.Create(__instance).Field("m_CurrentStep").SetValue(999);
-            (Traverse.Create(ConstructionGhostManager.Get()).Field("m_AllGhosts").GetValue() as List<ConstructionGhost>)
-            ?.ForEach((b) => Traverse.Create(b).Field("m_CurrentStep").SetValue(999));
+            __instance.m_CurrentStep = 999;
+
+            // Iterate all childsteps, such as bridges, fences and palisades.
+            foreach (GhostStep step in __instance.m_Steps)
+            {
+                foreach (GhostSlot slot in step.m_Slots)
+                {
+                    slot.Fulfill();
+                }
+            } 
         }
     }
 }

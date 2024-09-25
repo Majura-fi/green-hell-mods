@@ -4,9 +4,11 @@ This project contains multiple Unity Mod Manager mods for the **Green Hell** gam
 
 ## Creative Mode
 
-Contains parts made by [Wisnoskij](https://github.com/wisnoskij/GreenHell.CreativeMode). No UI options, just instant build.
+Instant building. Place buildings down and they are instantly built. Works on palisades, fences and bridges too!
 
-Note: Does not build multipart structures, such as walls, fences or bridges.
+Note about version 1.0.1: Re-did the logic and felt comfortable to set myself as an author, since I came up with a different solutions.
+
+Note about version 1.0.0: This version contains code made by [Wisnoskij](https://github.com/wisnoskij/GreenHell.CreativeMode). Didn't have energy to fix UI part, so left it out. Does not build multipart structures, such as palisades, fences or bridges.
 
 ## Eternal Fire
 
