@@ -35,3 +35,6 @@ The rain chance is controlled with four flags:
 - None: 0%
 
 For some reason devs have left out the Low chance, meaning that some areas will never see rain. This happens at least in the area where you arrive after the air field. This mod makes sure that there is at least 25% chance for rain with low-chance areas.
+
+For more information about the rain zones, check the rain map below.
+![rainmap](https://github.com/user-attachments/assets/94890a68-debe-4b20-981a-133cb726f6a9)
