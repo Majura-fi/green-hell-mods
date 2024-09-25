@@ -25,3 +25,13 @@ The game code contains two different chances for leeches, one when the player is
 ## Super Planter
 
 All planter boxes are always watered and fertilized.
+
+## Make It Rain
+
+The rain chance is controlled with four flags:
+- High: 100%
+- Medium: 50%
+- Low: ??
+- None: 0%
+
+For some reason devs have left out the Low chance, meaning that some areas will never see rain. This happens at least in the area where you arrive after the air field. This mod makes sure that there is at least 25% chance for rain with low-chance areas.
