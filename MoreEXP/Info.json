@@ -1,0 +1,12 @@
+﻿{
+    "Id": "MoreEXP",
+    "DisplayName": "MoreEXP",
+    "Author": "Majura-fi",
+    "Version": "1.0.0",
+    "ManagerVersion": "0.29.0",
+    "GameVersion": "1.0.0",
+    "Requirements": [],
+    "LoadAfter": [],
+    "AssemblyName": "MoreEXP.dll",
+    "EntryMethod": "MoreEXP.Plugin.Load"
+}

@@ -38,3 +38,7 @@ For some reason devs have left out the Low chance, meaning that some areas will 
 
 For more information about the rain zones, check the rain map below.
 ![rainmap](https://github.com/user-attachments/assets/94890a68-debe-4b20-981a-133cb726f6a9)
+
+## MoreEXP
+
+Multiplies incoming exp by 100. You will get max skills very quickly.
