@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensibleLeeches", "Sensible
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeItRain", "MakeItRain\MakeItRain.csproj", "{E0690F9D-1D4A-4B5F-8305-35EE16750837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreEXP", "MoreEXP\MoreEXP.csproj", "{18499363-C1D0-4E64-B479-15125677EB51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreEXP", "MoreEXP\MoreEXP.csproj", "{18499363-C1D0-4E64-B479-15125677EB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleCentipedes", "SensibleCentipedes\SensibleCentipedes.csproj", "{73BC72CD-540C-4B7C-99EA-C906E2AE2CE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{18499363-C1D0-4E64-B479-15125677EB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18499363-C1D0-4E64-B479-15125677EB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18499363-C1D0-4E64-B479-15125677EB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BC72CD-540C-4B7C-99EA-C906E2AE2CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BC72CD-540C-4B7C-99EA-C906E2AE2CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BC72CD-540C-4B7C-99EA-C906E2AE2CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BC72CD-540C-4B7C-99EA-C906E2AE2CE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
